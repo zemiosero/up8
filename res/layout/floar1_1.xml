@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ishikabe1"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="42dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="200dp"
+        android:text="←" />
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="151dp"
+        android:layout_height="284dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/door_2" >
+    </ImageSwitcher>
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="42dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="200dp"
+        android:text="→" />
+
+</LinearLayout>
