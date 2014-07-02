@@ -3,32 +3,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ishikabe1"
-    android:orientation="horizontal" >
+    android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/button2"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="42dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="200dp"
-        android:text="←" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="66dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/pre_to1" />
 
-    <ImageSwitcher
-        android:id="@+id/imageSwitcher1"
-        android:layout_width="151dp"
-        android:layout_height="284dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="125dp"
-        android:background="@drawable/door_2" >
-    </ImageSwitcher>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
 
-    <Button
-        android:id="@+id/button3"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="42dp"
-        android:layout_height="90dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="200dp"
-        android:text="→" />
+        <Button
+            android:id="@+id/btnL1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="42dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="100dp"
+            android:text="←" />
+
+        <ImageSwitcher
+            android:id="@+id/imageSwitcher1"
+            android:layout_width="151dp"
+            android:layout_height="284dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/door_2" >
+
+        </ImageSwitcher>
+
+        <Button
+            android:id="@+id/btnR1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="42dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            android:text="→" />
+
+    </LinearLayout>
 
 </LinearLayout>
