@@ -17,7 +17,7 @@ public class Room1Activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.floar1_1);
 
-		Button nextBtn = (Button)findViewById(R.id.btnR1);
+		Button nextBtn = (Button)findViewById(R.id.button3);
         nextBtn.setOnClickListener(new OnClickListener(){
 			public void onClick(View v) {
 				Intent it =new Intent();
