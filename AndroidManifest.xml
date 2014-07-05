@@ -25,31 +25,31 @@
          <activity
             android:name="com.example.gamesample.SelectActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
                 <activity
             android:name="com.example.gamesample.Room1Activity"
             android:label="@string/app_name"
-            android:theme="@style/MyTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:theme="@style/slideAnim" >
         </activity>
         <activity
             android:name="com.example.gamesample.Room2Activity"
             android:label="@string/app_name"
-            android:theme="@style/MyTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:theme="@style/slideAnim">
+        </activity>
+        <activity
+            android:name="com.example.gamesample.Room3Activity"
+            android:label="@string/app_name"
+            android:theme="@style/slideAnim">
+        </activity>
+        <activity
+            android:name="com.example.gamesample.Room4Activity"
+            android:label="@string/app_name"
+            android:theme="@style/slideAnim">
+        </activity>
+        <activity
+            android:name="com.example.gamesample.Room5Activity"
+            android:label="@string/app_name"
+            android:theme="@style/slideAnim">
         </activity>
     </application>
 

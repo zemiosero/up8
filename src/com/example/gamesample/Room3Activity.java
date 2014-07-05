@@ -8,13 +8,13 @@ import android.widget.Button;
 
 
 
-public class Room1Activity extends Activity implements View.OnClickListener{
+public class Room3Activity extends Activity implements View.OnClickListener{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.floar1_1);
+		setContentView(R.layout.floar1_3);
 
 	}
 
@@ -35,13 +35,13 @@ public class Room1Activity extends Activity implements View.OnClickListener{
 		Intent it =new Intent();
 		switch(v.getId()){
 		case R.id.button2:
-			it.setClass(Room1Activity.this, Room5Activity.class);
+			it.setClass(Room3Activity.this, Room2Activity.class);
 			startActivityForResult(it,R.id.button2);
 			overridePendingTransition(R.anim.activity_open_enter, R.anim.activity_open_exit);
 
 
 		case R.id.button3:
-			it.setClass(Room1Activity.this, Room2Activity.class);
+			it.setClass(Room3Activity.this, Room4Activity.class);
 			startActivityForResult(it,R.id.button3);
 			overridePendingTransition(R.anim.activity_close_enter, R.anim.activity_close_exit);
 
@@ -49,4 +49,5 @@ public class Room1Activity extends Activity implements View.OnClickListener{
 		}
 
 	}
+
 }
