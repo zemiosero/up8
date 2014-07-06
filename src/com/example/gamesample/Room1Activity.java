@@ -37,13 +37,13 @@ public class Room1Activity extends Activity implements View.OnClickListener{
 		case R.id.button2:
 			it.setClass(Room1Activity.this, Room5Activity.class);
 			startActivityForResult(it,R.id.button2);
-			overridePendingTransition(R.anim.activity_open_enter, R.anim.activity_open_exit);
+			overridePendingTransition(R.anim.activity_close_enter, R.anim.activity_close_exit);
 
 
 		case R.id.button3:
 			it.setClass(Room1Activity.this, Room2Activity.class);
 			startActivityForResult(it,R.id.button3);
-			overridePendingTransition(R.anim.activity_close_enter, R.anim.activity_close_exit);
+			overridePendingTransition(R.anim.activity_open_enter, R.anim.activity_open_exit);
 
 
 		}
