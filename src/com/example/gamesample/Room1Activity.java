@@ -1,52 +1,17 @@
 package com.example.gamesample;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-
-
-public class Room1Activity extends Activity implements View.OnClickListener{
+public class Room1Activity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.floar1_1);
-
+		setContentView(R.layout.room1_1);
 	}
 
-	@Override
-	protected void onResume() {
-		// TODO 自動生成されたメソッド・スタブ
-		super.onResume();
-
-		Button nextBtn = (Button)findViewById(R.id.button2);
-		nextBtn.setOnClickListener(this);
-
-		Button nextBtn2 = (Button)findViewById(R.id.button3);
-		nextBtn2.setOnClickListener(this);
-
-	}
-
-	public void onClick(View v) {
-		Intent it =new Intent();
-		switch(v.getId()){
-		case R.id.button2:
-			it.setClass(Room1Activity.this, Room5Activity.class);
-			startActivityForResult(it,R.id.button2);
-			overridePendingTransition(R.anim.activity_close_enter, R.anim.activity_close_exit);
 
 
-		case R.id.button3:
-			it.setClass(Room1Activity.this, Room2Activity.class);
-			startActivityForResult(it,R.id.button3);
-			overridePendingTransition(R.anim.activity_open_enter, R.anim.activity_open_exit);
-
-
-		}
-
-	}
 }

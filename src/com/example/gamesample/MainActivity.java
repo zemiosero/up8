@@ -23,6 +23,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
 		Button btn1 = (Button)findViewById(R.id.btn1);
 		btn1.setOnClickListener(this);
+
+		Button btn3 = (Button)findViewById(R.id.btn3);
+		btn3.setOnClickListener(this);
 	}
 
 
@@ -38,11 +41,14 @@ public class MainActivity extends Activity implements View.OnClickListener{
 	public void onClick(View v) {
 		 switch(v.getId()){
 	        case R.id.btn1:
-	        		Intent intent = new Intent(MainActivity.this, Room1Activity.class);
+	        		Intent intent = new Intent(MainActivity.this, Floar1_1Activity.class);
 	        		startActivity(intent);
-		 	}
 
-		}
+	        case R.id.btn3:
+	        	finish();
+		 }
+
+	}
 
 
 }

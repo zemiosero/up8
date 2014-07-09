@@ -11,11 +11,11 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name">
         <activity
             android:name="com.example.gamesample.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,29 +27,33 @@
             android:label="@string/app_name" >
         </activity>
                 <activity
-            android:name="com.example.gamesample.Room1Activity"
+            android:name="com.example.gamesample.Floar1_1Activity"
             android:label="@string/app_name"
             android:theme="@style/slideAnim" >
         </activity>
         <activity
-            android:name="com.example.gamesample.Room2Activity"
+            android:name="com.example.gamesample.Floar1_2Activity"
             android:label="@string/app_name"
             android:theme="@style/slideAnim">
         </activity>
         <activity
-            android:name="com.example.gamesample.Room3Activity"
+            android:name="com.example.gamesample.Floar1_3Activity"
             android:label="@string/app_name"
             android:theme="@style/slideAnim">
         </activity>
         <activity
-            android:name="com.example.gamesample.Room4Activity"
+            android:name="com.example.gamesample.Floar1_4Activity"
             android:label="@string/app_name"
             android:theme="@style/slideAnim">
         </activity>
         <activity
-            android:name="com.example.gamesample.Room5Activity"
+            android:name="com.example.gamesample.Floar1_5Activity"
             android:label="@string/app_name"
             android:theme="@style/slideAnim">
+        </activity>
+        <activity
+            android:name="com.example.gamesample.Room1Activity"
+            android:label="@string/app_name">
         </activity>
     </application>
 

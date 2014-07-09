@@ -33,6 +33,10 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
         public static final int ishikabe1=0x7f020003;
         public static final int pre_to1=0x7f020004;
+        public static final int pre_to3=0x7f020005;
+        public static final int pre_to4=0x7f020006;
+        public static final int pre_to5=0x7f020007;
+        public static final int preto2=0x7f020008;
     }
     public static final class id {
         public static final int action_settings=0x7f09001c;
@@ -44,8 +48,8 @@ public final class R {
         public static final int button2=0x7f090006;
         public static final int button3=0x7f090008;
         public static final int container=0x7f090000;
-        public static final int imageSwitcher1=0x7f090007;
         public static final int imageView1=0x7f090005;
+        public static final int imd1=0x7f090007;
         public static final int sbt1=0x7f09000a;
         public static final int sbt10=0x7f090013;
         public static final int sbt11=0x7f090014;
@@ -73,8 +77,9 @@ public final class R {
         public static final int floar1_4=0x7f030004;
         public static final int floar1_5=0x7f030005;
         public static final int fragment_main=0x7f030006;
-        public static final int select=0x7f030007;
-        public static final int test1=0x7f030008;
+        public static final int room1_1=0x7f030007;
+        public static final int select=0x7f030008;
+        public static final int test1=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f080000;
