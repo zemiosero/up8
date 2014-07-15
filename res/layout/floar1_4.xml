@@ -11,7 +11,7 @@
         android:layout_height="24dp"
         android:layout_gravity="center"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="120dp"
         android:background="@drawable/pre_to4" />
 
     <LinearLayout

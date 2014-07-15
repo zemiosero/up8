@@ -29,44 +29,50 @@ public final class R {
     }
     public static final class drawable {
         public static final int door1=0x7f020000;
-        public static final int door_2=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int ishikabe1=0x7f020003;
-        public static final int pre_to1=0x7f020004;
-        public static final int pre_to3=0x7f020005;
-        public static final int pre_to4=0x7f020006;
-        public static final int pre_to5=0x7f020007;
-        public static final int preto2=0x7f020008;
+        public static final int door3=0x7f020001;
+        public static final int door_2=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int ishikabe1=0x7f020004;
+        public static final int pre_to1=0x7f020005;
+        public static final int pre_to3=0x7f020006;
+        public static final int pre_to4=0x7f020007;
+        public static final int pre_to5=0x7f020008;
+        public static final int preto2=0x7f020009;
+        public static final int roomsam=0x7f02000a;
+        public static final int roomsam2=0x7f02000b;
     }
     public static final class id {
-        public static final int action_settings=0x7f09001c;
+        public static final int Button01=0x7f090009;
+        public static final int action_settings=0x7f09001f;
         public static final int btn1=0x7f090004;
         public static final int btn2=0x7f090003;
         public static final int btn3=0x7f090002;
-        public static final int btn_back=0x7f09001a;
-        public static final int btn_flag=0x7f09001b;
+        public static final int btn_back=0x7f09001d;
+        public static final int btn_flag=0x7f09001e;
+        public static final int button1=0x7f09000a;
         public static final int button2=0x7f090006;
         public static final int button3=0x7f090008;
         public static final int container=0x7f090000;
         public static final int imageView1=0x7f090005;
         public static final int imd1=0x7f090007;
-        public static final int sbt1=0x7f09000a;
-        public static final int sbt10=0x7f090013;
-        public static final int sbt11=0x7f090014;
-        public static final int sbt12=0x7f090015;
-        public static final int sbt13=0x7f090016;
-        public static final int sbt14=0x7f090017;
-        public static final int sbt15=0x7f090018;
-        public static final int sbt16=0x7f090019;
-        public static final int sbt2=0x7f09000b;
-        public static final int sbt3=0x7f09000c;
-        public static final int sbt4=0x7f09000d;
-        public static final int sbt5=0x7f09000e;
-        public static final int sbt6=0x7f09000f;
-        public static final int sbt7=0x7f090010;
-        public static final int sbt8=0x7f090011;
-        public static final int sbt9=0x7f090012;
-        public static final int textView1=0x7f090009;
+        public static final int imdout=0x7f09000b;
+        public static final int sbt1=0x7f09000d;
+        public static final int sbt10=0x7f090016;
+        public static final int sbt11=0x7f090017;
+        public static final int sbt12=0x7f090018;
+        public static final int sbt13=0x7f090019;
+        public static final int sbt14=0x7f09001a;
+        public static final int sbt15=0x7f09001b;
+        public static final int sbt16=0x7f09001c;
+        public static final int sbt2=0x7f09000e;
+        public static final int sbt3=0x7f09000f;
+        public static final int sbt4=0x7f090010;
+        public static final int sbt5=0x7f090011;
+        public static final int sbt6=0x7f090012;
+        public static final int sbt7=0x7f090013;
+        public static final int sbt8=0x7f090014;
+        public static final int sbt9=0x7f090015;
+        public static final int textView1=0x7f09000c;
         public static final int title=0x7f090001;
     }
     public static final class layout {
@@ -78,8 +84,9 @@ public final class R {
         public static final int floar1_5=0x7f030005;
         public static final int fragment_main=0x7f030006;
         public static final int room1_1=0x7f030007;
-        public static final int select=0x7f030008;
-        public static final int test1=0x7f030009;
+        public static final int room1_2=0x7f030008;
+        public static final int select=0x7f030009;
+        public static final int test1=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f080000;

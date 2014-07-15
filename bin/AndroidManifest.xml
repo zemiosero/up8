@@ -52,7 +52,11 @@
             android:theme="@style/slideAnim">
         </activity>
         <activity
-            android:name="com.example.gamesample.Room1Activity"
+            android:name="com.example.gamesample.Room1_1Activity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.gamesample.Room1_2Activity"
             android:label="@string/app_name">
         </activity>
     </application>

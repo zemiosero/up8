@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/roomsam" >
+    android:background="@drawable/roomsam2" >
 
     <Button
         android:id="@+id/Button01"
@@ -25,6 +25,17 @@
         android:background="#d0e0f0"
         android:text="←"
         android:textColor="#0000ff"
-        android:onClick="btnOnRight" />
+        android:onClick="btnOnRight"/>
+
+    <ImageView
+        android:id="@+id/imdout"
+        android:layout_width="151dp"
+        android:layout_height="284dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="96dp"
+        android:layout_toLeftOf="@+id/Button01"
+        android:src="@drawable/door3"
+        android:onClick="imgClick" />
 
 </RelativeLayout>
