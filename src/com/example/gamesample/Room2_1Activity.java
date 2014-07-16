@@ -5,47 +5,31 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-
-
-public class Floar1_2Activity extends Activity{
+public class Room2_1Activity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.floar1_2);
-
+		setContentView(R.layout.room1_1);
 	}
 
-	@Override
-	protected void onResume() {
-		// TODO 自動生成されたメソッド・スタブ
-		super.onResume();
-
-	}
-
-	public void btnOnLeft(View v) {
+	public void btnOnRight(View v) {
 		Intent it =new Intent();
-		it.setClass(Floar1_2Activity.this, Floar1_1Activity.class);
+		it.setClass(Room2_1Activity.this, Room1_2Activity.class);
 		startActivityForResult(it,R.id.button2);
 		overridePendingTransition(R.anim.activity_close_enter, R.anim.activity_close_exit);
 
 	}
 
-	public void imgClick(View v){
+	public void btnOnLeft(View v){
 		Intent it =new Intent();
-		it.setClass(Floar1_2Activity.this, Room2_1Activity.class);
-
-	}
-
-
-	public void btnOnRight(View v){
-		Intent it =new Intent();
-		it.setClass(Floar1_2Activity.this, Floar1_3Activity.class);
+		it.setClass(Room2_1Activity.this, Room1_2Activity.class);
 		startActivityForResult(it,R.id.button3);
 		overridePendingTransition(R.anim.activity_open_enter, R.anim.activity_open_exit);
 
 
 	}
+
 
 }

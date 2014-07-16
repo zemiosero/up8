@@ -43,9 +43,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 	        case R.id.btn1:
 	        		Intent intent = new Intent(MainActivity.this, Floar1_1Activity.class);
 	        		startActivity(intent);
-
-	        case R.id.btn3:
-	        	finish();
 		 }
 
 	}

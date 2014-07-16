@@ -32,7 +32,7 @@
             android:layout_width="151dp"
             android:layout_height="284dp"
             android:layout_marginLeft="65dp"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="33dp"
             android:background="@drawable/door_2" >
         </ImageSwitcher>
 

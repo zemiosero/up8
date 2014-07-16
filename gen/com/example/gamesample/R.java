@@ -98,9 +98,15 @@ public final class R {
         public static final int hello_world=0x7f060001;
     }
     public static final class style {
-        public static final int Animation=0x7f070000;
-        public static final int Animation_Activity=0x7f070001;
-        /** 
+        /**   <style name="Animation" parent="android:Animation" />
+	<style name="Animation.Activity" parent="android:Animation.Activity">
+		<item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+		<item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+	</style>
+	
+
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
@@ -121,11 +127,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070002;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070003;
-        public static final int slideAnim=0x7f070004;
+        public static final int AppTheme=0x7f070001;
     }
 }
