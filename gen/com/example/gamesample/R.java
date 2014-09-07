@@ -82,11 +82,31 @@ public final class R {
         public static final int floar1_3=0x7f030003;
         public static final int floar1_4=0x7f030004;
         public static final int floar1_5=0x7f030005;
-        public static final int fragment_main=0x7f030006;
-        public static final int room1_1=0x7f030007;
-        public static final int room1_2=0x7f030008;
-        public static final int select=0x7f030009;
-        public static final int test1=0x7f03000a;
+        public static final int floar2_1=0x7f030006;
+        public static final int floar2_2=0x7f030007;
+        public static final int floar2_3=0x7f030008;
+        public static final int floar2_4=0x7f030009;
+        public static final int floar2_5=0x7f03000a;
+        public static final int floar3_1=0x7f03000b;
+        public static final int floar3_2=0x7f03000c;
+        public static final int floar3_3=0x7f03000d;
+        public static final int floar3_4=0x7f03000e;
+        public static final int floar3_5=0x7f03000f;
+        public static final int floar4_1=0x7f030010;
+        public static final int floar4_2=0x7f030011;
+        public static final int floar4_3=0x7f030012;
+        public static final int floar4_4=0x7f030013;
+        public static final int floar4_5=0x7f030014;
+        public static final int floar5_1=0x7f030015;
+        public static final int floar5_2=0x7f030016;
+        public static final int floar5_3=0x7f030017;
+        public static final int floar5_4=0x7f030018;
+        public static final int floar5_5=0x7f030019;
+        public static final int fragment_main=0x7f03001a;
+        public static final int room1_1=0x7f03001b;
+        public static final int room1_2=0x7f03001c;
+        public static final int select=0x7f03001d;
+        public static final int test1=0x7f03001e;
     }
     public static final class menu {
         public static final int main=0x7f080000;
